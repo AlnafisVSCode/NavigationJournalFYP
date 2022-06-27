@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E5A53"
+    android:padding="15dp"
+    tools:context=".ShortTermTaskActivity">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHORT TERM TASK"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/ButtonsLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Title">
+
+        <Button
+            android:id="@+id/AddNewTask"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/black"
+            android:layout_height="0dp"
+            android:layout_weight="3.5"
+            android:text="Add Task" />
+
+        <Button
+            android:id="@+id/DisplayTask"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/black"
+            android:layout_height="0dp"
+            android:layout_weight="3.5"
+            android:text="Display Task" />
+        <Button
+            android:id="@+id/DisplayHistoryTask"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/black"
+            android:layout_height="0dp"
+            android:layout_weight="3.5"
+            android:text="History Task" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

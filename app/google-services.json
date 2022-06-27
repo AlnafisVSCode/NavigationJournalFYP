@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "288211017230",
+    "project_id": "navigation-journal-b658b",
+    "storage_bucket": "navigation-journal-b658b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288211017230:android:0e6de3bcc2ab5f3d16a65f",
+        "android_client_info": {
+          "package_name": "com.example.navigationjournal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288211017230-k33kjnkqstobvc2fh8h5c2pb4bfp6b1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvg6PY4gsGCuJMtWTwhwZTZYoCjB6iTTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "288211017230-k33kjnkqstobvc2fh8h5c2pb4bfp6b1g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
